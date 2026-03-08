@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhypr_arch=globalThis.webpackChunkhypr_arch||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to HyprArch","permalink":"/blog/welcome-to-hyprarch","unlisted":false,"date":"2026-03-08T20:20:23.000Z"}]}')}}]);

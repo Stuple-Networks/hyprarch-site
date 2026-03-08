@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhypr_arch=globalThis.webpackChunkhypr_arch||[]).push([[947],{6600(t){t.exports=JSON.parse('{"authors":[{"name":"stui","title":"HyprArch Lead Developer","url":"https://github.com/Stuple-Networks","imageURL":"https://github.com/Stuple-Networks.png","key":"stui","page":null,"count":1}]}')}}]);

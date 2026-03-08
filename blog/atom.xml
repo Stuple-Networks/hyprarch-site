@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hyprarch.stuple.net/blog</id>
+    <title>HyprArch Blog</title>
+    <updated>2026-03-08T20:20:23.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hyprarch.stuple.net/blog"/>
+    <subtitle>HyprArch Blog</subtitle>
+    <icon>https://hyprarch.stuple.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to HyprArch]]></title>
+        <id>https://hyprarch.stuple.net/blog/welcome-to-hyprarch</id>
+        <link href="https://hyprarch.stuple.net/blog/welcome-to-hyprarch"/>
+        <updated>2026-03-08T20:20:23.000Z</updated>
+        <summary type="html"><![CDATA[This is the first official blog post for HyprArch. We are building a streamlined, aesthetic Arch Linux experience centered around the Hyprland tiling window manager.]]></summary>
+        <content type="html"><![CDATA[<p>This is the first official blog post for <strong>HyprArch</strong>. We are building a streamlined, aesthetic Arch Linux experience centered around the Hyprland tiling window manager.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-coming-next">What's coming next?<a href="https://hyprarch.stuple.net/blog/welcome-to-hyprarch#whats-coming-next" class="hash-link" aria-label="Direct link to What's coming next?" title="Direct link to What's coming next?" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Beta ISOs:</strong> We're working on the first public build.</li>
+<li class=""><strong>Documentation:</strong> Detailed guides on custom keybinds and waybar config.</li>
+<li class=""><strong>Community:</strong> Setting up our Discord/Matrix bridge.</li>
+</ul>
+<p>Stay tuned for more updates!</p>]]></content>
+        <author>
+            <name>stui</name>
+            <uri>https://github.com/Stuple-Networks</uri>
+        </author>
+        <category label="announcement" term="announcement"/>
+        <category label="hyprland" term="hyprland"/>
+    </entry>
+</feed>

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhypr_arch=globalThis.webpackChunkhypr_arch||[]).push([[121],{8070(a){a.exports=JSON.parse('{"tags":[{"label":"announcement","permalink":"/blog/tags/announcement","count":1},{"label":"hyprland","permalink":"/blog/tags/hyprland","count":1}]}')}}]);
