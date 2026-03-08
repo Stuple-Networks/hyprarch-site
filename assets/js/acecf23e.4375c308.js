@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhypr_arch=globalThis.webpackChunkhypr_arch||[]).push([[1903],{1912(h){h.exports=JSON.parse('{"blogBasePath":"/hyprarch-site/blog","blogTitle":"Blog","authorsListPath":"/hyprarch-site/blog/authors"}')}}]);
