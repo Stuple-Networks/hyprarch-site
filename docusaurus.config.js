@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'HyprArch',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hyprarch.stuple.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Stuple-Network', // Usually your GitHub org/user name.
+  projectName: 'hyprarch-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'HyprArch',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -146,7 +146,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Stuple-Network HyprArch, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
