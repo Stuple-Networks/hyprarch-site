@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import React from 'react';
+
 
 const FeatureList = [
   {
@@ -24,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by Arch Linux',
-    Svg: require('@site/static/img/arch.jpg').default,
+    Scg: require('@site/static/img/arch.svg').default,
     description: (
       <>
         Based on Arch Linux powered by the Linux Kernel
@@ -33,11 +35,16 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* If it's an SVG, render the component. If it's a PNG/JPG, render an img tag */}
+        {Svg ? (
+          <Svg className={styles.featureSvg} role="img" />
+        ) : (
+          <img src={image} className={styles.featureSvg} alt={title} />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
