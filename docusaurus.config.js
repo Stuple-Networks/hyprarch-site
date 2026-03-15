@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HyprArch',
-  tagline: 'Dinosaurs are cool',
+  tagline: '"I like trains"',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -23,15 +23,15 @@ const config = {
   url: 'https://hyprarch.stuple.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/hyprarch-site/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Stuple-Network', // Usually your GitHub org/user name.
+  organizationName: 'Stuple-Networks', // Usually your GitHub org/user name.
   projectName: 'hyprarch-site', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-
+  onBrokenLinks: 'warn',
+  trailingSlash: false,
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -95,9 +95,15 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'downloadSidebar',
+            position: 'left',
+            label: 'Download',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://git.stuple.net/Stuple-Networks/HyprArch',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,7 +117,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/notdownload/intro',
               },
             ],
           },
