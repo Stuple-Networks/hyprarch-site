@@ -7,29 +7,28 @@ import React from 'react';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/emoji.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Easy to use Hyprland configuration, so you can Focus on what matters.
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: require('@site/static/img/squid.png').default,
     description: (
       <>
-        Easy to install with a preconfigured Installer and out easy Tutorial in  <code>Tutorial</code> Tab.
+        Easy to install with a preconfigured Installer and out easy Tutorial in  <code>Docs</code> Tab.
       </>
     ),
   },
   {
     title: 'Powered by Arch Linux',
-    Scg: require('@site/static/img/arch.svg').default,
+    Svg: require('@site/static/img/arch.svg').default,
     description: (
       <>
-        Based on Arch Linux powered by the Linux Kernel
+        Based on Arch Linux and powered by the Linux Kernel
       </>
     ),
   },
@@ -39,7 +38,7 @@ function Feature({Svg, image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {/* If it's an SVG, render the component. If it's a PNG/JPG, render an img tag */}
+        {/* If Svg exists, render it as a component. Otherwise, use an img tag */}
         {Svg ? (
           <Svg className={styles.featureSvg} role="img" />
         ) : (

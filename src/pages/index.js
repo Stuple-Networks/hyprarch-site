@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/notdownload/intro">
-            HyprArch Tutorial
+            HyprArch Docs
           </Link>
         </div>
       </div>

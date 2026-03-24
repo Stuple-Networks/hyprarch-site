@@ -1,0 +1,25 @@
+---
+sidebar_position: 1
+---
+
+# System Requirement for HyprArch
+
+## MINIMUM
+
+CPU: **potato**   
+GPU: Integrated    
+MEMORY: ~2GB (i tested in a vm and it just used 800MB)   
+STORAGE: 20GB   
+INTERNET/ETHERNET: Yes   
+
+## RECOMENDED
+
+CPU: Somewhat Modern   
+GPU: Low end or GPU ~8GB VRAM   
+MEMORY: 8-16 GB    
+STORAGE: 50-70 GB   
+INTERNET/ETHERNET: Yes   
+
+## MAXIMUM
+
+Everything better than before

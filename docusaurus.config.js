@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HyprArch',
-  tagline: '"I like trains"',
-  favicon: 'img/favicon.ico',
+  tagline: '"I like Trains"',
+  favicon: 'img/Hyprarch.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Stuple-Networks/hyprarch-site/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -86,14 +86,14 @@ const config = {
         title: 'HyprArch',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Hyprarch.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             type: 'docSidebar',
@@ -125,16 +125,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Stack Overflow (dont have it)',
+                href: 'https://git.stuple.net/Stuple-Networks/HyprArch',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Discord (dont have it)',
+                href: 'https://git.stuple.net/Stuple-Networks/HyprArch',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'X (dont have it)',
+                href: 'https://git.stuple.net/Stuple-Networks/HyprArch',
               },
             ],
           },
@@ -147,7 +147,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://git.stuple.net/Stuple-Networks/HyprArch',
               },
             ],
           },
